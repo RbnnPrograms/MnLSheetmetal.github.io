@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M&L Sheet Metal</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="M&L Sheet Metal Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- What we offer  -->
+    <section  class="service">
+        <h1 id="services">What We Offer</h1>
+        <p>We specialise in Mid-High End Quality with a large proportion of our client base in the retail industry. Our in-house services include CNC Punching, CNC Folding, Laser Cutting, Mig & Tig Welding, Stainless steel brushed and mirror polished brass and plating.<br><br>
+    
+        </p>
+        <ol>
+            <li class=""><a >CNC Punching</a></li>
+            <li class=""><a >CNC Folding</a></li>
+            <li class=""><a >Laser Cutting</a></li>
+            <li class=""><a >Mig & Tig Welding</a></li>
+            <li class=""><a >Stainless steel brushed and mirror polished brass</a></li>
+            <li class=""><a >Plating</a></li>
+        </ol>
+        
+    </section>
+
+
+    <section class="comment-box">
+        <div class="comment-box">
+            <h3> Get A Custom Quote </h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name/Company Name">
+                <input type="email" placeholder="Enter Email">
+                <input type="number" placeholder="Enter Contact Number">
+                
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <button type="submit" class="hero-btn blue-btn">Enquire</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2066.257383923575!2d-0.2035523382774675!3d51.984862733412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48763285c2dc45d1%3A0x1dce670b2341d9fe!2sM%20%26%20L%20Sheet%20Metal%20Ltd!5e0!3m2!1sen!2suk!4v1692504547070!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+    </section>
+
+    <!-- Placeholder for footer section -->
+    <!-- Include your footer content here -->
+
+    <script>
+        /* Menu Animation Script */
+        function showMenu() {
+            var navLinks = document.getElementById('navLinks');
+            navLinks.style.right = "0";
+        }
+        
+        function hideMenu() {
+            var navLinks = document.getElementById('navLinks');
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
